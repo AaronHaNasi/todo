@@ -5,7 +5,8 @@ import Login from './Login';
 export default function Routes() {
   return (
     <Switch>
-      <Route path='/' exact component={Login} />
+      <Route path='/login' exact component={Login} />
+
     </Switch>
   );
 }
